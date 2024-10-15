@@ -69,7 +69,7 @@ int main(int ac, char **av)
                         }
 			else if (av[1][i] == 'o' || av[1][i] == 'O')
                         {
-                                av[1][i] -= k - 22;
+                                av[1][i] -= k - 2;
                         }
 			else if (av[1][i] == 'p' || av[1][i] == 'P')
                         {
