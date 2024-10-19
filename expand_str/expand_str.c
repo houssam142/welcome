@@ -24,6 +24,8 @@ int main(int ac, char **av)
                                 {
                                         break;
                                 }
+				write(1, &av[1][i], 1);
+				break;
                         }
 			write(1, &av[1][i], 1);
 			i++;
